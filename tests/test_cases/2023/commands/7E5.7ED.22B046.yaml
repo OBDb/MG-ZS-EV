@@ -1,0 +1,11 @@
+command_id: 7E5.7ED.22B046
+test_cases:
+- expected_values:
+    ZSEV_SOC: 23.5
+  response: 7ED0562B04600EB
+- expected_values:
+    ZSEV_SOC: 57.1
+  response: 7ED0562B046023B
+- expected_values:
+    ZSEV_SOC: 100
+  response: 7ED0562B046FFFE

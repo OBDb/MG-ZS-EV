@@ -1,0 +1,17 @@
+command_id: 710.718.22B921
+test_cases:
+- expected_values:
+    ZSEV_GWM_ODO: 39066
+  response: |-
+    718100962B92100989A
+    71821000000AAAAAAAA
+- expected_values:
+    ZSEV_GWM_ODO: 39067
+  response: |-
+    718100962B92100989B
+    71821000000AAAAAAAA
+- expected_values:
+    ZSEV_GWM_ODO: 39068
+  response: |-
+    718100962B92100989C
+    71821000000AAAAAAAA
