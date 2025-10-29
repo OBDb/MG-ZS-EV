@@ -7,6 +7,22 @@
   "signals": [
     {"id": "ZSEV_GWM_STATUS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Vehicle gateway status"}
   ]},
+{ "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B042"}, "freq": 1,
+  "signals": [
+    {"id": "ZSEV_HBAT_V", "path": "Battery", "fmt": { "len": 16, "max": 450, "min": 300, "div": 4, "unit": "volts" }, "name": "High voltage battery voltage"}
+  ]},
+{ "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B043"}, "freq": 1,
+  "signals": [
+    {"id": "ZSEV_HBAT_C", "path": "Battery", "fmt": { "len": 16, "max": 638.375, "min": -1000, "div": 40, "add": -1000, "unit": "amps" }, "name": "High voltage battery current"}
+  ]},
+{ "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B046"}, "freq": 1,
+  "signals": [
+    {"id": "ZSEV_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B061"}, "freq": 1,
+  "signals": [
+    {"id": "ZSEV_SOH", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "State of health", "suggestedMetric": "stateOfHealth"}
+  ]},
 { "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "B001"}, "freq": 180,
   "signals": [
     {"id": "ZSEV_EVCC_CURRENT",        "path": "Battery.EVCC",       "fmt": {           "len": 16, "max": 250, "mul": 0.2,    "add": -409.6, "unit": "amps"    }, "name": "Current"},
@@ -77,10 +93,6 @@
 { "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B045"}, "freq": 60,
   "signals": [
     {"id": "ZSEV_HVBAT_RESISTANCE", "path": "Battery.Internal", "fmt": { "len": 16, "max": 32767.5, "mul": 0.5, "unit": "scalar" }, "name": "HV battery internal resistance"}
-  ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B046"}, "freq": 1,
-  "signals": [
-    {"id": "ZSEV_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B048"}, "freq": 1,
   "signals": [
