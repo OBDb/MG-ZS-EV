@@ -1,4 +1,4 @@
-command_id: 7E3.22BA00
+command_id: 7E3.7EB.22BA00
 test_cases:
 - expected_values:
     ZSEV_VSS: 0

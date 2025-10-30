@@ -1,4 +1,4 @@
-command_id: 760.22B101
+command_id: 760.768.22B101
 test_cases:
 - expected_values:
     ZSEV_ODO_V2: 185203

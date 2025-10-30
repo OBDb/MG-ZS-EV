@@ -4,7 +4,7 @@ supported_commands_by_ecu:
   - 710.718.22B921:ZSEV_GWM_ODO
   - 710.718.22D001:ZSEV_GWM_STATUS
   "760":
-  - 760.22B101:ZSEV_ODO_V2
+  - 760.768.22B101:ZSEV_ODO_V2
   "781":
   - 781.789.22B042:ZSEV_HBAT_V
   - 781.789.22B043:ZSEV_HBAT_C
@@ -26,8 +26,8 @@ supported_commands_by_ecu:
   - 014E:CLR_TIME
   - 0151:FUEL_TYP
   - 015A:APP_R
-  - 7E3.22BA00:ZSEV_VSS
-  - 7E3.22BB05:ZSEV_AAT
+  - 7E3.7EB.22BA00:ZSEV_VSS
+  - 7E3.7EB.22BB05:ZSEV_AAT
 unsupported_commands_by_ecu:
   "7DF":
   - 7DF.7EC.22B001
