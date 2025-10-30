@@ -1,0 +1,5 @@
+command_id: 760.22B101
+test_cases:
+- expected_values:
+    ZSEV_ODO_V2: 185203
+  response: 7680662B10102D373

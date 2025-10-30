@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     ZSEV_SOC: 31.1
   response: 7890562B0460137
+- expected_values:
+    ZSEV_SOC: 38.3
+  response: 7890562B046017F
+- expected_values:
+    ZSEV_SOC: 38.4
+  response: 7890562B0460180

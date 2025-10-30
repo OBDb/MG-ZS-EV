@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     ZSEV_HBAT_V: 394
   response: 7890562B0420628
+- expected_values:
+    ZSEV_HBAT_V: 397
+  response: 7890562B0420634
+- expected_values:
+    ZSEV_HBAT_V: 397.25
+  response: 7890562B0420635
+- expected_values:
+    ZSEV_HBAT_V: 397.5
+  response: 7890562B0420636
