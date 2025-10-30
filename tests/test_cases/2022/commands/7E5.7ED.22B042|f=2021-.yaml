@@ -1,0 +1,11 @@
+command_id: 7E5.7ED.22B042|f=2021-
+test_cases:
+- expected_values:
+    ZSEV_HVBAT_VOLTAGE: 398.75
+  response: 7ED0562B042063B
+- expected_values:
+    ZSEV_HVBAT_VOLTAGE: 399
+  response: 7ED0562B042063C
+- expected_values:
+    ZSEV_HVBAT_VOLTAGE: 407
+  response: 7ED0562B042065C

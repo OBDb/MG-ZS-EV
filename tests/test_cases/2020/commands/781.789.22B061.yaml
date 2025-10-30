@@ -1,0 +1,5 @@
+command_id: 781.789.22B061
+test_cases:
+- expected_values:
+    ZSEV_SOH: 91.65
+  response: 7890562B06123CD
