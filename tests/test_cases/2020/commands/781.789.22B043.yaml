@@ -10,8 +10,20 @@ test_cases:
     ZSEV_HBAT_C: 0.825
   response: 7890562B0439C61
 - expected_values:
+    ZSEV_HBAT_C: 0.925
+  response: 7890562B0439C65
+- expected_values:
     ZSEV_HBAT_C: 0.95
   response: 7890562B0439C66
 - expected_values:
     ZSEV_HBAT_C: 0.975
   response: 7890562B0439C67
+- expected_values:
+    ZSEV_HBAT_C: 1
+  response: 7890562B0439C68
+- expected_values:
+    ZSEV_HBAT_C: 1.05
+  response: 7890562B0439C6A
+- expected_values:
+    ZSEV_HBAT_C: 1.075
+  response: 7890562B0439C6B

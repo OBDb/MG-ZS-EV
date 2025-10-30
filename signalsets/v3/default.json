@@ -7,19 +7,19 @@
   "signals": [
     {"id": "ZSEV_GWM_STATUS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Vehicle gateway status"}
   ]},
-{ "hdr": "724", "dbg": true, "cmd": {"22": "B001"}, "freq": 5,
+{ "hdr": "724", "rax": "72C", "dbg": true, "cmd": {"22": "B001"}, "freq": 5,
   "signals": [
-    {"id": "ZSEV_TP_FL", "path": "Tires", "fmt": {           "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Front left tire pressure"},
-    {"id": "ZSEV_TP_FR", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Front right tire pressure"},
-    {"id": "ZSEV_TP_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Rear right tire pressure"},
-    {"id": "ZSEV_TP_RL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Rear left tire pressure"}
+    {"id": "ZSEV_TP_FL", "path": "Tires", "fmt": {           "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "ZSEV_TP_FR", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "ZSEV_TP_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
+    {"id": "ZSEV_TP_RL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "724", "dbg": true, "cmd": {"22": "B003"}, "freq": 5,
+{ "hdr": "724", "rax": "72C", "dbg": true, "cmd": {"22": "B003"}, "freq": 5,
   "signals": [
-    {"id": "ZSEV_TT_FL", "path": "Engine", "fmt": {           "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Tire temp FL"},
-    {"id": "ZSEV_TT_FR", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Tire temp FR"},
-    {"id": "ZSEV_TT_RR", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Tire temp RR"},
-    {"id": "ZSEV_TT_RL", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Tire temp RL"}
+    {"id": "ZSEV_TT_FL", "path": "Tires", "fmt": {           "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Front left tire temperature"},
+    {"id": "ZSEV_TT_FR", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Front right tire temperature"},
+    {"id": "ZSEV_TT_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Rear right tire temperature"},
+    {"id": "ZSEV_TT_RL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Rear left tire temperature"}
   ]},
 { "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "B101"}, "freq": 1,
   "signals": [
@@ -58,7 +58,7 @@
   "signals": [
     {"id": "ZSEV_SOH", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "State of health", "suggestedMetric": "stateOfHealth"}
   ]},
-{ "hdr": "7E3", "dbg": true, "cmd": {"22": "D112"}, "freq": 1,
+{ "hdr": "7E3", "dbg": true, "cmd": {"22": "D112"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
     {"id": "ZSEV_DOOR_BOOT",      "path": "Doors", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, boot"},
     {"id": "ZSEV_DOOR_BONNET",    "path": "Doors", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, bonnet"},
