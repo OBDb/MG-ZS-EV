@@ -1,0 +1,8 @@
+command_id: 781.789.22B042
+test_cases:
+- expected_values:
+    ZSEV_HBAT_V: 393.75
+  response: 7890562B0420627
+- expected_values:
+    ZSEV_HBAT_V: 394
+  response: 7890562B0420628

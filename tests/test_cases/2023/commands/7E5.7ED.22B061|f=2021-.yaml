@@ -1,0 +1,8 @@
+command_id: 7E5.7ED.22B061|f=2021-
+test_cases:
+- expected_values:
+    ZSEV_HVBAT_SOH: 99.89
+  response: 7ED0562B0612705
+- expected_values:
+    ZSEV_HVBAT_SOH: 100
+  response: 7ED0562B0612710

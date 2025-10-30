@@ -1,0 +1,5 @@
+command_id: 781.789.22B043
+test_cases:
+- expected_values:
+    ZSEV_HBAT_C: 0.725
+  response: 7890562B0439C5D

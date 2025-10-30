@@ -1,0 +1,8 @@
+command_id: 781.789.22B046
+test_cases:
+- expected_values:
+    ZSEV_SOC: 31
+  response: 7890562B0460136
+- expected_values:
+    ZSEV_SOC: 31.1
+  response: 7890562B0460137
