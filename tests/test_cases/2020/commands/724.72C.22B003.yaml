@@ -1,0 +1,8 @@
+command_id: 724.72C.22B003
+test_cases:
+- expected_values:
+    ZSEV_TT_FL: 18
+    ZSEV_TT_FR: 18
+    ZSEV_TT_RL: 17.5
+    ZSEV_TT_RR: 18.5
+  response: 72C0762B00324242523

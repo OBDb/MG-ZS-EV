@@ -1,0 +1,8 @@
+command_id: 724.72C.22B001
+test_cases:
+- expected_values:
+    ZSEV_TP_FL: 240
+    ZSEV_TP_FR: 268
+    ZSEV_TP_RL: 268
+    ZSEV_TP_RR: 244
+  response: 72C0762B0013C433D43

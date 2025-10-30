@@ -1,0 +1,11 @@
+command_id: 781.789.22B041|f=-2021
+test_cases:
+- expected_values:
+    ZSEV_HVBAT_BUS_VOLTAGE_GEN1: 400.25
+  response: 7890562B0410641
+- expected_values:
+    ZSEV_HVBAT_BUS_VOLTAGE_GEN1: 400.5
+  response: 7890562B0410642
+- expected_values:
+    ZSEV_HVBAT_BUS_VOLTAGE_GEN1: 400.75
+  response: 7890562B0410643
