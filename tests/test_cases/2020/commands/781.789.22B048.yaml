@@ -1,0 +1,6 @@
+command_id: 781.789.22B048
+test_cases:
+- expected_values:
+    ZSEV_IS_CHARGING: 1
+    ZSEV_IS_DCFC: 1
+  response: 7890462B04803

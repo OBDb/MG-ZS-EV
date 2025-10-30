@@ -7,9 +7,27 @@
   "signals": [
     {"id": "ZSEV_GWM_STATUS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Vehicle gateway status"}
   ]},
+{ "hdr": "724", "dbg": true, "cmd": {"22": "B001"}, "freq": 5,
+  "signals": [
+    {"id": "ZSEV_TP_FL", "path": "Tires", "fmt": {           "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Front left tire pressure"},
+    {"id": "ZSEV_TP_FR", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Front right tire pressure"},
+    {"id": "ZSEV_TP_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Rear right tire pressure"},
+    {"id": "ZSEV_TP_RL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Rear left tire pressure"}
+  ]},
+{ "hdr": "724", "dbg": true, "cmd": {"22": "B003"}, "freq": 5,
+  "signals": [
+    {"id": "ZSEV_TT_FL", "path": "Engine", "fmt": {           "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Tire temp FL"},
+    {"id": "ZSEV_TT_FR", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Tire temp FR"},
+    {"id": "ZSEV_TT_RR", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Tire temp RR"},
+    {"id": "ZSEV_TT_RL", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Tire temp RL"}
+  ]},
 { "hdr": "760", "dbg": true, "cmd": {"22": "B101"}, "freq": 1,
   "signals": [
     {"id": "ZSEV_ODO_V2", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B041"}, "freq": 1, "filter": { "to": 2021 },
+  "signals": [
+    {"id": "ZSEV_HVBAT_BUS_VOLTAGE_GEN1", "path": "Battery.Internal", "fmt": { "len": 16, "max": 1000, "div": 4, "unit": "volts" }, "name": "HV battery bus voltage"}
   ]},
 { "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B042"}, "freq": 1,
   "signals": [
@@ -28,7 +46,15 @@
     {"id": "ZSEV_IS_CHARGING", "path": "Battery", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "yesno" }, "name": "Is charging",         "suggestedMetric": "isCharging"},
     {"id": "ZSEV_IS_DCFC",     "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "yesno" }, "name": "Is DC fast charging"}
   ]},
-{ "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B061"}, "freq": 1,
+{ "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B056"}, "freq": 60, "filter": { "to": 2021 },
+  "signals": [
+    {"id": "ZSEV_HVBAT_TEMP_GEN1", "path": "Battery", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "HV battery temperature"}
+  ]},
+{ "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B05C"}, "freq": 60, "filter": { "to": 2021 },
+  "signals": [
+    {"id": "ZSEV_HVBAT_COOLANT_TEMP_GEN1", "path": "Battery", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "HV battery coolant temperature"}
+  ]},
+{ "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B061"}, "freq": 1, "filter": { "to": 2021 },
   "signals": [
     {"id": "ZSEV_SOH", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "State of health", "suggestedMetric": "stateOfHealth"}
   ]},
@@ -39,6 +65,15 @@
 { "hdr": "7E3", "dbg": true, "cmd": {"22": "BB05"}, "freq": 5,
   "signals": [
     {"id": "ZSEV_AAT", "path": "Climate", "fmt": { "len": 8, "max": 80, "min": -40, "add": -40, "unit": "celsius" }, "name": "External temperature"}
+  ]},
+{ "hdr": "7E3", "dbg": true, "cmd": {"22": "D112"}, "freq": 1,
+  "signals": [
+    {"id": "ZSEV_DOOR_BOOT",      "path": "Doors", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, boot"},
+    {"id": "ZSEV_DOOR_BONNET",    "path": "Doors", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, bonnet"},
+    {"id": "ZSEV_DOOR_RH_REAR",   "path": "Doors", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, RH rear"},
+    {"id": "ZSEV_DOOR_LH_REAR",   "path": "Doors", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, LH rear"},
+    {"id": "ZSEV_DOOR_PASSENGER", "path": "Doors", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, passenger"},
+    {"id": "ZSEV_DOOR_DRIVER",    "path": "Doors", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, driver"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "B001"}, "freq": 180, "filter": { "from": 2021 },
   "signals": [
@@ -95,9 +130,9 @@
     {"id": "ZSEV_HVBAT_CMU06_MINTEMP", "path": "Battery.Modules.06", "fmt": {"bix": 32, "len": 8,  "max": 150, "mul": 0.5,    "add": -40, "unit": "celsius" }, "name": "HV battery module 06 min temperature"},
     {"id": "ZSEV_HVBAT_CMU06_MAXTEMP", "path": "Battery.Modules.06", "fmt": {"bix": 40, "len": 8,  "max": 150, "mul": 0.5,    "add": -40, "unit": "celsius" }, "name": "HV battery module 06 max temperature"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B041"}, "freq": 30, "filter": { "from": 2021 },
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B041"}, "freq": 5, "filter": { "from": 2021 },
   "signals": [
-    {"id": "ZSEV_HVBAT_BUS_VOLTAGE", "path": "Battery.Internal", "fmt": { "len": 16, "max": 1000, "mul": 0.25, "unit": "volts" }, "name": "HV battery bus voltage"}
+    {"id": "ZSEV_HVBAT_BUS_VOLTAGE", "path": "Battery.Internal", "fmt": { "len": 16, "max": 1000, "div": 4, "unit": "volts" }, "name": "HV battery bus voltage"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B042"}, "freq": 0.25, "filter": { "from": 2021 },
   "signals": [
@@ -117,15 +152,15 @@
   ]},
 { "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B056"}, "freq": 60, "filter": { "from": 2021 },
   "signals": [
-    {"id": "ZSEV_HVBAT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 0.5, "add": -40, "unit": "celsius" }, "name": "HV battery temperature"}
+    {"id": "ZSEV_HVBAT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "HV battery temperature"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B05C"}, "freq": 60, "filter": { "from": 2021 },
   "signals": [
-    {"id": "ZSEV_HVBAT_COOLANT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 0.5, "add": -40, "unit": "celsius" }, "name": "HV battery coolant temperature"}
+    {"id": "ZSEV_HVBAT_COOLANT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "HV battery coolant temperature"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B061"}, "freq": 30, "filter": { "from": 2021 },
   "signals": [
-    {"id": "ZSEV_HVBAT_SOH", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 0.01, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
+    {"id": "ZSEV_HVBAT_SOH", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B0A3"}, "freq": 180, "filter": { "from": 2021 },
   "signals": [
