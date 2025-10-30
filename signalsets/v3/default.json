@@ -21,7 +21,7 @@
     {"id": "ZSEV_TT_RR", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Tire temp RR"},
     {"id": "ZSEV_TT_RL", "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Tire temp RL"}
   ]},
-{ "hdr": "760", "dbg": true, "cmd": {"22": "B101"}, "freq": 1,
+{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "B101"}, "freq": 1,
   "signals": [
     {"id": "ZSEV_ODO_V2", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -58,14 +58,6 @@
   "signals": [
     {"id": "ZSEV_SOH", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "State of health", "suggestedMetric": "stateOfHealth"}
   ]},
-{ "hdr": "7E3", "dbg": true, "cmd": {"22": "BA00"}, "freq": 0.25,
-  "signals": [
-    {"id": "ZSEV_VSS", "path": "Movement", "fmt": { "len": 16, "max": 455.35, "min": -200, "div": 100, "add": -200, "unit": "kilometersPerHour" }, "name": "Vehicle reported speed", "suggestedMetric": "speed"}
-  ]},
-{ "hdr": "7E3", "dbg": true, "cmd": {"22": "BB05"}, "freq": 5,
-  "signals": [
-    {"id": "ZSEV_AAT", "path": "Climate", "fmt": { "len": 8, "max": 80, "min": -40, "add": -40, "unit": "celsius" }, "name": "External temperature"}
-  ]},
 { "hdr": "7E3", "dbg": true, "cmd": {"22": "D112"}, "freq": 1,
   "signals": [
     {"id": "ZSEV_DOOR_BOOT",      "path": "Doors", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, boot"},
@@ -74,6 +66,14 @@
     {"id": "ZSEV_DOOR_LH_REAR",   "path": "Doors", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, LH rear"},
     {"id": "ZSEV_DOOR_PASSENGER", "path": "Doors", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, passenger"},
     {"id": "ZSEV_DOOR_DRIVER",    "path": "Doors", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, driver"}
+  ]},
+{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "BA00"}, "freq": 0.25,
+  "signals": [
+    {"id": "ZSEV_VSS", "path": "Movement", "fmt": { "len": 16, "max": 455.35, "min": -200, "div": 100, "add": -200, "unit": "kilometersPerHour" }, "name": "Vehicle reported speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "BB05"}, "freq": 5,
+  "signals": [
+    {"id": "ZSEV_AAT", "path": "Climate", "fmt": { "len": 8, "max": 80, "min": -40, "add": -40, "unit": "celsius" }, "name": "External temperature"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "B001"}, "freq": 180, "filter": { "from": 2021 },
   "signals": [
