@@ -1,8 +1,8 @@
 command_id: 781.789.22B056|f=-2021
 test_cases:
 - expected_values:
-    ZSEV_HVBAT_TEMP_GEN1: 12
-  response: 7890562B05668FF
+    ZSEV_HVBAT_TEMP_GEN1: 6
+  response: 7890562B0565CFF
 - expected_values:
-    ZSEV_HVBAT_TEMP_GEN1: 13
-  response: 7890562B0566AFF
+    ZSEV_HVBAT_TEMP_GEN1: 24
+  response: 7890562B05680FF

@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     ZSEV_HVBAT_COOLANT_TEMP: 31.5
   response: 7ED0462B05C8F
+- expected_values:
+    ZSEV_HVBAT_COOLANT_TEMP: 32.5
+  response: 7ED0462B05C91

@@ -1,29 +1,14 @@
 command_id: 781.789.22B043
 test_cases:
 - expected_values:
-    ZSEV_HBAT_C: 0.725
-  response: 7890562B0439C5D
+    ZSEV_HBAT_C: -104.225
+  response: 7890562B0438BF7
 - expected_values:
-    ZSEV_HBAT_C: 0.8
-  response: 7890562B0439C60
+    ZSEV_HBAT_C: -14.425
+  response: 7890562B04399FF
 - expected_values:
-    ZSEV_HBAT_C: 0.825
-  response: 7890562B0439C61
+    ZSEV_HBAT_C: 17.6
+  response: 7890562B0439F00
 - expected_values:
-    ZSEV_HBAT_C: 0.925
-  response: 7890562B0439C65
-- expected_values:
-    ZSEV_HBAT_C: 0.95
-  response: 7890562B0439C66
-- expected_values:
-    ZSEV_HBAT_C: 0.975
-  response: 7890562B0439C67
-- expected_values:
-    ZSEV_HBAT_C: 1
-  response: 7890562B0439C68
-- expected_values:
-    ZSEV_HBAT_C: 1.05
-  response: 7890562B0439C6A
-- expected_values:
-    ZSEV_HBAT_C: 1.075
-  response: 7890562B0439C6B
+    ZSEV_HBAT_C: 263.725
+  response: 7890562B043C575

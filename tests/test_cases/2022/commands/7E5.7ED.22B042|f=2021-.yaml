@@ -7,5 +7,8 @@ test_cases:
     ZSEV_HVBAT_VOLTAGE: 399
   response: 7ED0562B042063C
 - expected_values:
+    ZSEV_HVBAT_VOLTAGE: 399.25
+  response: 7ED0562B042063D
+- expected_values:
     ZSEV_HVBAT_VOLTAGE: 407
   response: 7ED0562B042065C
