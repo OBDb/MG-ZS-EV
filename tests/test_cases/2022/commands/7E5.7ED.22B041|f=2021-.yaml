@@ -4,5 +4,11 @@ test_cases:
     ZSEV_HVBAT_BUS_VOLTAGE: 399
   response: 7ED0562B041063C
 - expected_values:
+    ZSEV_HVBAT_BUS_VOLTAGE: 399.25
+  response: 7ED0562B041063D
+- expected_values:
     ZSEV_HVBAT_BUS_VOLTAGE: 406.75
   response: 7ED0562B041065B
+- expected_values:
+    ZSEV_HVBAT_BUS_VOLTAGE: 1000
+  response: 7ED0562B0410FFE

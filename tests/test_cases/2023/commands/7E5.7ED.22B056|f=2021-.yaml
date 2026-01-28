@@ -7,5 +7,5 @@ test_cases:
     ZSEV_HVBAT_TEMP: 17.5
   response: 7ED0562B0567300
 - expected_values:
-    ZSEV_HVBAT_TEMP: 30
-  response: 7ED0562B0568C02
+    ZSEV_HVBAT_TEMP: 38.5
+  response: 7ED0562B0569D0B

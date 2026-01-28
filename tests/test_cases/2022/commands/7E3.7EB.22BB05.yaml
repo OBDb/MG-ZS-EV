@@ -1,0 +1,8 @@
+command_id: 7E3.7EB.22BB05
+test_cases:
+- expected_values:
+    ZSEV_AAT: 28
+  response: 7EB0462BB0544
+- expected_values:
+    ZSEV_AAT: 30
+  response: 7EB0462BB0546

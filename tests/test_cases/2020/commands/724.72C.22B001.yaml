@@ -1,8 +1,38 @@
 command_id: 724.72C.22B001
 test_cases:
 - expected_values:
-    ZSEV_TP_FL: 240
-    ZSEV_TP_FR: 268
-    ZSEV_TP_RL: 268
-    ZSEV_TP_RR: 244
-  response: 72C0762B0013C433D43
+    ZSEV_TP_FL: 232
+    ZSEV_TP_FR: 224
+    ZSEV_TP_RL: 248
+    ZSEV_TP_RR: 252
+  response: 72C0762B0013A383F3E
+- expected_values:
+    ZSEV_TP_FL: 236
+    ZSEV_TP_FR: 264
+    ZSEV_TP_RL: 264
+    ZSEV_TP_RR: 236
+  response: 72C0762B0013B423B42
+- expected_values:
+    ZSEV_TP_FL: 248
+    ZSEV_TP_FR: 240
+    ZSEV_TP_RL: 264
+    ZSEV_TP_RR: 268
+  response: 72C0762B0013E3C4342
+- expected_values:
+    ZSEV_TP_FL: 256
+    ZSEV_TP_FR: 292
+    ZSEV_TP_RL: 288
+    ZSEV_TP_RR: 260
+  response: 72C0762B00140494148
+- expected_values:
+    ZSEV_TP_FL: 260
+    ZSEV_TP_FR: 284
+    ZSEV_TP_RL: 284
+    ZSEV_TP_RR: 256
+  response: 72C0762B00141474047
+- expected_values:
+    ZSEV_TP_FL: 260
+    ZSEV_TP_FR: 288
+    ZSEV_TP_RL: 292
+    ZSEV_TP_RR: 260
+  response: 72C0762B00141484149

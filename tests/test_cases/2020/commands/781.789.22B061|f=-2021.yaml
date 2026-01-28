@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     ZSEV_SOH: 91.65
   response: 7890562B06123CD
+- expected_values:
+    ZSEV_SOH: 92.18
+  response: 7890562B0612402
+- expected_values:
+    ZSEV_SOH: 97.38
+  response: 7890562B061260A

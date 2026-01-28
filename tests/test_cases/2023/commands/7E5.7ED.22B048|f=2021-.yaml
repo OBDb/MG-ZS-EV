@@ -4,11 +4,5 @@ test_cases:
     ZSEV_HVBAT_CHARGING: 0
   response: 7ED0462B04800
 - expected_values:
-    ZSEV_HVBAT_CHARGING: 1
-  response: 7ED0462B04801
-- expected_values:
-    ZSEV_HVBAT_CHARGING: 1
-  response: 7ED0462B04803
-- expected_values:
     ZSEV_HVBAT_CHARGING: 0
-  response: 7ED0462B04806
+  response: 7ED0462B0480C

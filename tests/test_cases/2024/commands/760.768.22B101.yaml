@@ -1,0 +1,14 @@
+command_id: 760.768.22B101
+test_cases:
+- expected_values:
+    ZSEV_ODO_V2: 38502
+  response: 7680662B101009666
+- expected_values:
+    ZSEV_ODO_V2: 38655
+  response: 7680662B1010096FF
+- expected_values:
+    ZSEV_ODO_V2: 38656
+  response: 7680662B101009700
+- expected_values:
+    ZSEV_ODO_V2: 39424
+  response: 7680662B101009A00

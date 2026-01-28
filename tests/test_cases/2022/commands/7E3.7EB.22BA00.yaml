@@ -1,0 +1,11 @@
+command_id: 7E3.7EB.22BA00
+test_cases:
+- expected_values:
+    ZSEV_VSS: -0.01
+  response: 7EB0562BA004E1F
+- expected_values:
+    ZSEV_VSS: 0
+  response: 7EB0562BA004E20
+- expected_values:
+    ZSEV_VSS: 0.29
+  response: 7EB0562BA004E3D

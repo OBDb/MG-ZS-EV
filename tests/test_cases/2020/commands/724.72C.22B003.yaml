@@ -1,8 +1,32 @@
 command_id: 724.72C.22B003
 test_cases:
 - expected_values:
-    ZSEV_TT_FL: 18
-    ZSEV_TT_FR: 18
-    ZSEV_TT_RL: 17.5
-    ZSEV_TT_RR: 18.5
-  response: 72C0762B00324242523
+    ZSEV_TT_FL: 17
+    ZSEV_TT_FR: 17
+    ZSEV_TT_RL: 17
+    ZSEV_TT_RR: 17
+  response: 72C0762B00322222222
+- expected_values:
+    ZSEV_TT_FL: 21.5
+    ZSEV_TT_FR: 21
+    ZSEV_TT_RL: 20.5
+    ZSEV_TT_RR: 22
+  response: 72C0762B0032B2A2C29
+- expected_values:
+    ZSEV_TT_FL: 21.5
+    ZSEV_TT_FR: 21.5
+    ZSEV_TT_RL: 22.5
+    ZSEV_TT_RR: 20.5
+  response: 72C0762B0032B2B292D
+- expected_values:
+    ZSEV_TT_FL: 21.5
+    ZSEV_TT_FR: 21.5
+    ZSEV_TT_RL: 23.5
+    ZSEV_TT_RR: 21
+  response: 72C0762B0032B2B2A2F
+- expected_values:
+    ZSEV_TT_FL: 22
+    ZSEV_TT_FR: 21.5
+    ZSEV_TT_RL: 21
+    ZSEV_TT_RR: 22
+  response: 72C0762B0032C2B2C2A

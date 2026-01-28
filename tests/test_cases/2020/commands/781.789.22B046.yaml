@@ -1,17 +1,14 @@
 command_id: 781.789.22B046
 test_cases:
 - expected_values:
-    ZSEV_SOC: 31
-  response: 7890562B0460136
+    ZSEV_SOC: 27.3
+  response: 7890562B0460111
 - expected_values:
-    ZSEV_SOC: 31.1
-  response: 7890562B0460137
+    ZSEV_SOC: 51.1
+  response: 7890562B04601FF
 - expected_values:
-    ZSEV_SOC: 38.3
-  response: 7890562B046017F
+    ZSEV_SOC: 51.2
+  response: 7890562B0460200
 - expected_values:
-    ZSEV_SOC: 38.4
-  response: 7890562B0460180
-- expected_values:
-    ZSEV_SOC: 44.7
-  response: 7890562B04601BF
+    ZSEV_SOC: 76.8
+  response: 7890562B0460300
