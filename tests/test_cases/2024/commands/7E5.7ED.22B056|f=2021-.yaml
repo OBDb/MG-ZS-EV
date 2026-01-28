@@ -1,0 +1,16 @@
+command_id: 7E5.7ED.22B056|f=2021-
+test_cases:
+- expected_values:
+    ZSEV_HVBAT_TEMP: 21.5
+  response: 7ED0562B0567B00
+- expected_values:
+    ZSEV_HVBAT_TEMP: 22.5
+  response: 7ED0562B0567D0B
+- expected_values:
+    ZSEV_HVBAT_TEMP: 25.5
+  response: |-
+    7ED0562B0568305
+    7EE0562B0560000
+- expected_values:
+    ZSEV_HVBAT_TEMP: 37
+  response: 7ED0562B0569A05

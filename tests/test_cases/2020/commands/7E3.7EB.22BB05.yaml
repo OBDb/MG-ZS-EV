@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ZSEV_AAT: 7
   response: 7EB0462BB052F
+- expected_values:
+    ZSEV_AAT: 28
+  response: 7EB0462BB0544

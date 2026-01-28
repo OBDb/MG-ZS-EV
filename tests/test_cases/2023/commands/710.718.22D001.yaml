@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     ZSEV_GWM_STATUS: 51
   response: 7180462D00133
+- expected_values:
+    ZSEV_GWM_STATUS: 170
+  response: 7180462D001AA

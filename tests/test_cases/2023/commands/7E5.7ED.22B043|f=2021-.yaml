@@ -2,6 +2,9 @@ command_id: 7E5.7ED.22B043|f=2021-
 test_cases:
 - expected_values:
     ZSEV_HVBAT_CURRENT: 0
+  response: 7ED0562B0438735
+- expected_values:
+    ZSEV_HVBAT_CURRENT: 0
   response: 7ED0562B0439321
 - expected_values:
     ZSEV_HVBAT_CURRENT: 4.725
@@ -10,5 +13,5 @@ test_cases:
     ZSEV_HVBAT_CURRENT: 4.85
   response: 7ED0562B0439D02
 - expected_values:
-    ZSEV_HVBAT_CURRENT: 88.3
-  response: 7ED0562B043AA0C
+    ZSEV_HVBAT_CURRENT: 171.5
+  response: 7ED0562B043B70C
