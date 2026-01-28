@@ -1,0 +1,15 @@
+references:
+  - "https://en.wikipedia.org/wiki/MG_ZS_(crossover)"
+
+generations:
+  - name: "First Generation"
+    start_year: 2019
+    end_year: 2021
+    description: "Pre-facelift MG ZS EV with 44.5 kWh battery and 110 kW front motor. Introduced as EZS at the 2018 Guangzhou Auto Show, marketed as MG ZS EV globally except in China where it retained the EZS name. Available in Excite and Exclusive trim levels."
+    wikipedia_section: "MG EZS / ZS EV"
+    
+  - name: "First Generation Facelift"
+    start_year: 2021
+    end_year: present
+    description: "Facelifted MG ZS EV introduced in late 2021 with updated styling, larger 72.6 kWh battery (and 51 kWh LFP option in some markets), and new trim levels. Features redesigned front fascia, updated interior with 10.1-inch infotainment screen, and enhanced autonomous safety features."
+    wikipedia_section: "MG EZS / ZS EV"
