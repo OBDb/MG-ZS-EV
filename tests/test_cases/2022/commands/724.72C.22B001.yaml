@@ -13,6 +13,12 @@ test_cases:
     ZSEV_TP_RR: 292
   response: 72C0762B00149474949
 - expected_values:
+    ZSEV_TP_FL: 292
+    ZSEV_TP_FR: 292
+    ZSEV_TP_RL: 300
+    ZSEV_TP_RR: 304
+  response: 72C0762B00149494C4B
+- expected_values:
     ZSEV_TP_FL: 296
     ZSEV_TP_FR: 288
     ZSEV_TP_RL: 300
