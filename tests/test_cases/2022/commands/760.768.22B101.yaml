@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     ZSEV_ODO_V2: 61374
   response: 7680662B10100EFBE
+- expected_values:
+    ZSEV_ODO_V2: 62937
+  response: 7680662B10100F5D9

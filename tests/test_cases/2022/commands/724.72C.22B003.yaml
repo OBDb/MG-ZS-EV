@@ -18,3 +18,9 @@ test_cases:
     ZSEV_TT_RL: 24
     ZSEV_TT_RR: 24
   response: 72C0762B00331313030
+- expected_values:
+    ZSEV_TT_FL: 25.5
+    ZSEV_TT_FR: 25.5
+    ZSEV_TT_RL: 25
+    ZSEV_TT_RR: 25.5
+  response: 72C0762B00333333332
