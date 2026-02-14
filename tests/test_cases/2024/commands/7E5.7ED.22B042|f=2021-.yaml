@@ -1,8 +1,8 @@
 command_id: 7E5.7ED.22B042|f=2021-
 test_cases:
 - expected_values:
-    ZSEV_HVBAT_VOLTAGE: 344.5
-  response: 7ED0562B0420562
+    ZSEV_HVBAT_VOLTAGE: 342.5
+  response: 7ED0562B042055A
 - expected_values:
     ZSEV_HVBAT_VOLTAGE: 383.75
   response: 7ED0562B04205FF
