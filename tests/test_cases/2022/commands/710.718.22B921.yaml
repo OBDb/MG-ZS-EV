@@ -35,3 +35,8 @@ test_cases:
   response: |-
     718100962B92100F5D9
     71821000000AAAAAAAA
+- expected_values:
+    ZSEV_GWM_ODO: 65717
+  response: |-
+    718100962B9210100B5
+    71821000000AAAAAAAA
