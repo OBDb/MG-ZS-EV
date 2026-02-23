@@ -1,26 +1,14 @@
 command_id: 7E3.7EB.22BA00
 test_cases:
 - expected_values:
-    ZSEV_VSS: -0.08
-  response: 7EB0562BA004E18
+    ZSEV_VSS: -1.05
+  response: 7EB0562BA004DB7
 - expected_values:
-    ZSEV_VSS: -0.01
-  response: 7EB0562BA004E1F
-- expected_values:
-    ZSEV_VSS: 0
-  response: 7EB0562BA004E20
-- expected_values:
-    ZSEV_VSS: 0.29
-  response: 7EB0562BA004E3D
-- expected_values:
-    ZSEV_VSS: 0.5
-  response: 7EB0562BA004E52
-- expected_values:
-    ZSEV_VSS: 9.76
-  response: 7EB0562BA0051F0
-- expected_values:
-    ZSEV_VSS: 10.21
-  response: 7EB0562BA00521D
+    ZSEV_VSS: 9.85
+  response: 7EB0562BA0051F9
 - expected_values:
     ZSEV_VSS: 12.61
   response: 7EB0562BA00530D
+- expected_values:
+    ZSEV_VSS: 59.29
+  response: 7EB0562BA006549
