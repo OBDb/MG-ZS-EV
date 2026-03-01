@@ -10,5 +10,5 @@ test_cases:
     ZSEV_ODO_V2: 38656
   response: 7680662B101009700
 - expected_values:
-    ZSEV_ODO_V2: 41984
-  response: 7680662B10100A400
+    ZSEV_ODO_V2: 42271
+  response: 7680662B10100A51F
