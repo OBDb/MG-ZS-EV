@@ -10,5 +10,5 @@ test_cases:
     ZSEV_HVBAT_CURRENT: 4.725
   response: 7ED0562B0439CFD
 - expected_values:
-    ZSEV_HVBAT_CURRENT: 166.65
-  response: 7ED0562B043B64A
+    ZSEV_HVBAT_CURRENT: 250
+  response: 7ED0562B043C70C
