@@ -7,8 +7,8 @@ test_cases:
     ZSEV_VSS: -2.89
   response: 7EB0562BA004CFF
 - expected_values:
-    ZSEV_VSS: 22.72
-  response: 7EB0562BA005700
+    ZSEV_VSS: 17.6
+  response: 7EB0562BA005500
 - expected_values:
     ZSEV_VSS: 110.55
   response: 7EB0562BA00794F
