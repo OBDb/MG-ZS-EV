@@ -10,6 +10,9 @@ test_cases:
     ZSEV_HVBAT_SOH: 90.95
   response: 7ED0562B0612387
 - expected_values:
+    ZSEV_HVBAT_SOH: 91.01
+  response: 7ED0562B061238D
+- expected_values:
     ZSEV_HVBAT_SOH: 91.07
   response: 7ED0562B0612393
 - expected_values:
