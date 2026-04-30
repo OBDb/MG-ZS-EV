@@ -8,25 +8,25 @@ test_cases:
   response: 72C0762B0013A3C3B3B
 - expected_values:
     ZSEV_TP_FL: 288
-    ZSEV_TP_FR: 292
-    ZSEV_TP_RL: 292
-    ZSEV_TP_RR: 284
-  response: 72C0762B00148494749
-- expected_values:
-    ZSEV_TP_FL: 288
     ZSEV_TP_FR: 296
     ZSEV_TP_RL: 292
     ZSEV_TP_RR: 288
   response: 72C0762B001484A4849
 - expected_values:
     ZSEV_TP_FL: 292
-    ZSEV_TP_FR: 288
-    ZSEV_TP_RL: 284
-    ZSEV_TP_RR: 284
-  response: 72C0762B00149484747
+    ZSEV_TP_FR: 292
+    ZSEV_TP_RL: 296
+    ZSEV_TP_RR: 292
+  response: 72C0762B0014949494A
 - expected_values:
     ZSEV_TP_FL: 292
     ZSEV_TP_FR: 292
     ZSEV_TP_RL: 292
+    ZSEV_TP_RR: 296
+  response: 72C0762B00149494A49
+- expected_values:
+    ZSEV_TP_FL: 296
+    ZSEV_TP_FR: 292
+    ZSEV_TP_RL: 292
     ZSEV_TP_RR: 292
-  response: 72C0762B00149494949
+  response: 72C0762B0014A494949
