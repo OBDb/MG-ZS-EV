@@ -1,0 +1,14 @@
+command_id: 7E5.7ED.22B0CE
+test_cases:
+- expected_values:
+    ZSEV_HVBAT_RANGE_RAW: 519
+  response: 7ED0562B0CE0207
+- expected_values:
+    ZSEV_HVBAT_RANGE_RAW: 1792
+  response: 7ED0562B0CE0700
+- expected_values:
+    ZSEV_HVBAT_RANGE_RAW: 2047
+  response: 7ED0562B0CE07FF
+- expected_values:
+    ZSEV_HVBAT_RANGE_RAW: 65534
+  response: 7ED0562B0CEFFFE
