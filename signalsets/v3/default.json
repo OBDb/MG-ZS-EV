@@ -1,4 +1,7 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E3", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "710", "rax": "718", "cmd": {"22": "B921"}, "freq": 1, "dbgfilter": { "to": 2019 },
   "signals": [
     {"id": "ZSEV_GWM_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
