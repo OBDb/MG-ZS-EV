@@ -1,6 +1,12 @@
 command_id: 7E5.7ED.22B059
 test_cases:
 - expected_values:
+    ZSEV_HVBAT_CELL_V_MIN: 3.236
+  response: 7ED0662B0590CA445
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MIN: 3.257
+  response: 7ED0662B0590CB945
+- expected_values:
     ZSEV_HVBAT_CELL_V_MIN: 3.284
   response: 7ED0662B0590CD425
 - expected_values:
@@ -12,3 +18,15 @@ test_cases:
 - expected_values:
     ZSEV_HVBAT_CELL_V_MIN: 3.287
   response: 7ED0662B0590CD725
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MIN: 3.29
+  response: 7ED0662B0590CDA25
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MIN: 3.295
+  response: 7ED0662B0590CDF25
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MIN: 3.305
+  response: 7ED0662B0590CE925
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MIN: 3.31
+  response: 7ED0662B0590CEE27

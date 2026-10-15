@@ -1,23 +1,8 @@
 command_id: 7E3.7EB.22B405
 test_cases:
 - expected_values:
-    ZSEV_MOTOR_T: 34
-  response: 7EB0462B4054A
-- expected_values:
-    ZSEV_MOTOR_T: 35
-  response: 7EB0462B4054B
-- expected_values:
-    ZSEV_MOTOR_T: 36
-  response: 7EB0462B4054C
-- expected_values:
-    ZSEV_MOTOR_T: 37
-  response: 7EB0462B4054D
-- expected_values:
-    ZSEV_MOTOR_T: 39
-  response: 7EB0462B4054F
-- expected_values:
-    ZSEV_MOTOR_T: 40
-  response: 7EB0462B40550
+    ZSEV_MOTOR_T: 22
+  response: 7EB0462B4053E
 - expected_values:
     ZSEV_MOTOR_T: 42
   response: 7EB0462B40552

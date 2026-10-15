@@ -1,6 +1,9 @@
 command_id: 7E3.7EB.22BB01
 test_cases:
 - expected_values:
+    ZSEV_AC_P: 0
+  response: 7EB0562BB010000
+- expected_values:
     ZSEV_AC_P: 18
   response: 7EB0562BB010012
 - expected_values:

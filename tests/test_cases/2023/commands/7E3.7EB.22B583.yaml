@@ -1,6 +1,24 @@
 command_id: 7E3.7EB.22B583
 test_cases:
 - expected_values:
+    ZSEV_DCDC_OUT_A: 18
+  response: 7EB0562B58300B4
+- expected_values:
+    ZSEV_DCDC_OUT_A: 19
+  response: 7EB0562B58300BE
+- expected_values:
+    ZSEV_DCDC_OUT_A: 20
+  response: 7EB0562B58300C8
+- expected_values:
+    ZSEV_DCDC_OUT_A: 21
+  response: 7EB0562B58300D2
+- expected_values:
+    ZSEV_DCDC_OUT_A: 25
+  response: 7EB0562B58300FA
+- expected_values:
+    ZSEV_DCDC_OUT_A: 27
+  response: 7EB0562B583010E
+- expected_values:
     ZSEV_DCDC_OUT_A: 35
   response: 7EB0562B583015E
 - expected_values:

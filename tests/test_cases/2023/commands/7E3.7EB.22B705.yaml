@@ -1,6 +1,9 @@
 command_id: 7E3.7EB.22B705
 test_cases:
 - expected_values:
+    ZSEV_HVBAT_V_VCU: 390.2
+  response: 7EB0562B7050F3E
+- expected_values:
     ZSEV_HVBAT_V_VCU: 394.7
   response: 7EB0562B7050F6B
 - expected_values:
@@ -9,3 +12,18 @@ test_cases:
 - expected_values:
     ZSEV_HVBAT_V_VCU: 395.2
   response: 7EB0562B7050F70
+- expected_values:
+    ZSEV_HVBAT_V_VCU: 395.7
+  response: 7EB0562B7050F75
+- expected_values:
+    ZSEV_HVBAT_V_VCU: 396
+  response: 7EB0562B7050F78
+- expected_values:
+    ZSEV_HVBAT_V_VCU: 396.2
+  response: 7EB0562B7050F7A
+- expected_values:
+    ZSEV_HVBAT_V_VCU: 396.5
+  response: 7EB0562B7050F7D
+- expected_values:
+    ZSEV_HVBAT_V_VCU: 399
+  response: 7EB0562B7050F96
