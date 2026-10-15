@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     ZSEV_BRAKE: 0
   response: 7EB0562B1200000
+- expected_values:
+    ZSEV_BRAKE: 5.4
+  response: 7EB0562B1200036
+- expected_values:
+    ZSEV_BRAKE: 18.4
+  response: 7EB0562B12000B8
+- expected_values:
+    ZSEV_BRAKE: 18.8
+  response: 7EB0562B12000BC
+- expected_values:
+    ZSEV_BRAKE: 29
+  response: 7EB0562B1200122
+- expected_values:
+    ZSEV_BRAKE: 29.4
+  response: 7EB0562B1200126
+- expected_values:
+    ZSEV_BRAKE: 29.8
+  response: 7EB0562B120012A
+- expected_values:
+    ZSEV_BRAKE: 30.5
+  response: 7EB0562B1200131

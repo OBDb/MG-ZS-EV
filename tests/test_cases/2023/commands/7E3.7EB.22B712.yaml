@@ -1,5 +1,11 @@
 command_id: 7E3.7EB.22B712
 test_cases:
 - expected_values:
+    ZSEV_CHG_A_LIMIT: 96.2
+  response: 7EB0562B71203C2
+- expected_values:
+    ZSEV_CHG_A_LIMIT: 97
+  response: 7EB0562B71203CA
+- expected_values:
     ZSEV_CHG_A_LIMIT: 103.2
   response: 7EB0562B7120408

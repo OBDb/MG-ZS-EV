@@ -1,6 +1,15 @@
 command_id: 7E3.7EB.22B309
 test_cases:
 - expected_values:
+    ZSEV_MOTOR_COOLANT_T: 22
+  response: 7EB0462B3093E
+- expected_values:
+    ZSEV_MOTOR_COOLANT_T: 23
+  response: 7EB0462B3093F
+- expected_values:
+    ZSEV_MOTOR_COOLANT_T: 24
+  response: 7EB0462B30940
+- expected_values:
     ZSEV_MOTOR_COOLANT_T: 34
   response: 7EB0462B3094A
 - expected_values:

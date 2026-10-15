@@ -1,5 +1,29 @@
 command_id: 7E3.7EB.22B401
 test_cases:
 - expected_values:
+    ZSEV_MOTOR_TQ: -345
+  response: 7EB0562B4017EA6
+- expected_values:
+    ZSEV_MOTOR_TQ: -260
+  response: 7EB0562B4017EFB
+- expected_values:
+    ZSEV_MOTOR_TQ: -140
+  response: 7EB0562B4017F73
+- expected_values:
     ZSEV_MOTOR_TQ: -5
   response: 7EB0562B4017FFA
+- expected_values:
+    ZSEV_MOTOR_TQ: 0
+  response: 7EB0562B4017FFF
+- expected_values:
+    ZSEV_MOTOR_TQ: 10
+  response: 7EB0562B4018009
+- expected_values:
+    ZSEV_MOTOR_TQ: 35
+  response: 7EB0562B4018022
+- expected_values:
+    ZSEV_MOTOR_TQ: 645
+  response: 7EB0562B4018284
+- expected_values:
+    ZSEV_MOTOR_TQ: 850
+  response: 7EB0562B4018351

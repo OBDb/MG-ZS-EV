@@ -1,5 +1,8 @@
 command_id: 7E3.7EB.22B581
 test_cases:
 - expected_values:
+    ZSEV_DCDC_IN_A: 0
+  response: 7EB0562B5817FFF
+- expected_values:
     ZSEV_DCDC_IN_A: 1
   response: 7EB0562B5818009

@@ -1,8 +1,26 @@
 command_id: 7E3.7EB.22B402
 test_cases:
 - expected_values:
+    ZSEV_MOTOR_RPM: -129
+  response: 7EB0562B4027F7E
+- expected_values:
     ZSEV_MOTOR_RPM: -1
   response: 7EB0562B4027FFE
 - expected_values:
     ZSEV_MOTOR_RPM: 0
   response: 7EB0562B4027FFF
+- expected_values:
+    ZSEV_MOTOR_RPM: 724
+  response: 7EB0562B40282D3
+- expected_values:
+    ZSEV_MOTOR_RPM: 1993
+  response: 7EB0562B40287C8
+- expected_values:
+    ZSEV_MOTOR_RPM: 2147
+  response: 7EB0562B4028862
+- expected_values:
+    ZSEV_MOTOR_RPM: 3689
+  response: 7EB0562B4028E68
+- expected_values:
+    ZSEV_MOTOR_RPM: 4376
+  response: 7EB0562B4029117

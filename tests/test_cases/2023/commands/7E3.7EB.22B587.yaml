@@ -1,6 +1,12 @@
 command_id: 7E3.7EB.22B587
 test_cases:
 - expected_values:
+    ZSEV_DCDC_T_VCU: 22
+  response: 7EB0462B5873E
+- expected_values:
+    ZSEV_DCDC_T_VCU: 23
+  response: 7EB0462B5873F
+- expected_values:
     ZSEV_DCDC_T_VCU: 32
   response: 7EB0462B58748
 - expected_values:

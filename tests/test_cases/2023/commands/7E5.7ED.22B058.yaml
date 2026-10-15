@@ -1,17 +1,14 @@
 command_id: 7E5.7ED.22B058
 test_cases:
 - expected_values:
-    ZSEV_HVBAT_CELL_V_MAX: 3.289
-  response: 7ED0662B0580CD936
+    ZSEV_HVBAT_CELL_V_MAX: 3.243
+  response: 7ED0662B0580CAB2B
 - expected_values:
-    ZSEV_HVBAT_CELL_V_MAX: 3.29
-  response: 7ED0662B0580CDA44
+    ZSEV_HVBAT_CELL_V_MAX: 3.258
+  response: 7ED0662B0580CBA0E
 - expected_values:
-    ZSEV_HVBAT_CELL_V_MAX: 3.29
-  response: 7ED0662B0580CDA5A
+    ZSEV_HVBAT_CELL_V_MAX: 3.288
+  response: 7ED0662B0580CD86D
 - expected_values:
-    ZSEV_HVBAT_CELL_V_MAX: 3.291
-  response: 7ED0662B0580CDB36
-- expected_values:
-    ZSEV_HVBAT_CELL_V_MAX: 3.291
-  response: 7ED0662B0580CDB44
+    ZSEV_HVBAT_CELL_V_MAX: 3.318
+  response: 7ED0662B0580CF66D
