@@ -1,0 +1,5 @@
+command_id: 7E3.7EB.22B120
+test_cases:
+- expected_values:
+    ZSEV_BRAKE: 0
+  response: 7EB0562B1200000

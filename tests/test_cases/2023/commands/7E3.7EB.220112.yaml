@@ -1,0 +1,5 @@
+command_id: 7E3.7EB.220112
+test_cases:
+- expected_values:
+    ZSEV_12V_V: 13.5
+  response: 7EB0462011287

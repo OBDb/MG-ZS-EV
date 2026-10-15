@@ -145,75 +145,75 @@
     {"id": "ZSEV_DOOR_PASSENGER", "path": "Doors", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, passenger"},
     {"id": "ZSEV_DOOR_DRIVER",    "path": "Doors", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "yesno" }, "name": "Door open, driver"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "0112"}, "freq": 10,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "0112"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_12V_V", "path": "Electrical", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "12V supply voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B120"}, "freq": 1,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B120"}, "freq": 1, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_BRAKE", "path": "Control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "percent" }, "name": "Brake pedal"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B18C"}, "freq": 5,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B18C"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_IGN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Ignition state"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B309"}, "freq": 10,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B309"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_MOTOR_COOLANT_T", "path": "Drivetrain", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor coolant temperature"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B401"}, "freq": 1,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B401"}, "freq": 1, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_MOTOR_TQ", "path": "Drivetrain", "fmt": { "len": 16, "max": 32768, "min": -32767, "add": -32767, "unit": "newtonMeters" }, "name": "Motor torque"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B402"}, "freq": 1,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B402"}, "freq": 1, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_MOTOR_RPM", "path": "Drivetrain", "fmt": { "len": 16, "max": 32768, "min": -32767, "add": -32767, "unit": "rpm" }, "name": "Motor speed"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B405"}, "freq": 10,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B405"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_MOTOR_T", "path": "Drivetrain", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor temperature"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B580"}, "freq": 10,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B580"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_DCDC_MODE", "path": "Electrical", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "DC/DC converter mode"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B581"}, "freq": 5,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B581"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_DCDC_IN_A", "path": "Electrical", "fmt": { "len": 16, "max": 3276.8, "min": -3276.7, "div": 10, "add": -3276.7, "unit": "amps" }, "name": "DC/DC converter input current"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B582"}, "freq": 5,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B582"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_DCDC_IN_V", "path": "Electrical", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "volts" }, "name": "DC/DC converter input voltage"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B583"}, "freq": 5,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B583"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_DCDC_OUT_A", "path": "Electrical", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "amps" }, "name": "DC/DC converter output current"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B584"}, "freq": 5,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B584"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_DCDC_OUT_V", "path": "Electrical", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "volts" }, "name": "DC/DC converter output voltage"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B587"}, "freq": 10,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B587"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_DCDC_T_VCU", "path": "Electrical", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "DC/DC converter temperature, vehicle control unit"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B703"}, "freq": 5,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B703"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_HV_CONTACTOR", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "yesno" }, "name": "HV contactor closed"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B705"}, "freq": 5,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B705"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_HVBAT_V_VCU", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "volts" }, "name": "HV battery voltage, vehicle control unit"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B712"}, "freq": 10,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B712"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_CHG_A_LIMIT", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "amps" }, "name": "Charge current limit"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B71B"}, "freq": 5,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B71B"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_CHG_CONNECTED", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "yesno" }, "name": "Charger connected", "suggestedMetric": "pluggedIn"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "B900"}, "freq": 1,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "B900"}, "freq": 1, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_GEAR_RAW", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear selector code"}
   ]},
@@ -221,11 +221,11 @@
   "signals": [
     {"id": "ZSEV_VSS", "path": "Movement", "fmt": { "len": 16, "max": 455.35, "min": -200, "div": 100, "add": -200, "unit": "kilometersPerHour" }, "name": "Vehicle reported speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "BA40"}, "freq": 5,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "BA40"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_PARK_BRAKE", "path": "Control", "fmt": { "len": 8, "max": 1, "unit": "yesno" }, "name": "Parking brake applied"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "BB01"}, "freq": 5,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "BB01"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_AC_P", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "A/C power"}
   ]},
@@ -233,11 +233,11 @@
   "signals": [
     {"id": "ZSEV_AAT", "path": "Climate", "fmt": { "len": 8, "max": 80, "min": -40, "add": -40, "unit": "celsius" }, "name": "External temperature"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "BB06"}, "freq": 5,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "BB06"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_HOOD", "path": "Doors", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "yesno" }, "name": "Hood open"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "BB91"}, "freq": 5,
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "BB91"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_RAD_FAN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Radiator fan state"}
   ]},
@@ -257,7 +257,7 @@
   "signals": [
     {"id": "ZSEV_EVCC_VOLTAGE", "path": "Battery.EVCC", "fmt": { "len": 16, "max": 675.618553, "mul": 0.0103092783, "unit": "volts" }, "name": "Voltage"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B001"}, "freq": 180,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "B001"}, "freq": 180, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_HVBAT_CMU01_MINVOLT", "path": "Battery.Modules.01", "fmt": {           "len": 16, "max": 10,  "mul": 0.0005, "add": 1,   "unit": "volts"   }, "name": "HV battery module 01 min voltage"},
     {"id": "ZSEV_HVBAT_CMU01_MAXVOLT", "path": "Battery.Modules.01", "fmt": {"bix": 16, "len": 16, "max": 10,  "mul": 0.0005, "add": 1,   "unit": "volts"   }, "name": "HV battery module 01 max voltage"},
@@ -315,7 +315,7 @@
   "signals": [
     {"id": "ZSEV_HVBAT_RESISTANCE", "path": "Battery.Internal", "fmt": { "len": 16, "max": 32767.5, "mul": 0.5, "unit": "scalar" }, "name": "HV battery internal resistance"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B047"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "B047"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_HVBAT_ERR", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "HV battery error code"}
   ]},
@@ -323,15 +323,15 @@
   "signals": [
     {"id": "ZSEV_HVBAT_CHARGING", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "scalar" }, "name": "HV battery is charging?"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B049"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "B049"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_HVBAT_RELAY_B", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "HV battery main relay B state"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B04A"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "B04A"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_HVBAT_RELAY_G", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "HV battery main relay G state"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B052"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "B052"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_HVBAT_RELAY_P", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "HV battery main relay P state"}
   ]},
@@ -339,11 +339,11 @@
   "signals": [
     {"id": "ZSEV_HVBAT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "HV battery temperature"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B058"}, "freq": 5,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "B058"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_HVBAT_CELL_V_MAX", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Highest cell voltage"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B059"}, "freq": 5,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "B059"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_HVBAT_CELL_V_MIN", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Lowest cell voltage"}
   ]},

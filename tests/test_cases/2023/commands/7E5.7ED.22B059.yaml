@@ -1,0 +1,14 @@
+command_id: 7E5.7ED.22B059
+test_cases:
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MIN: 3.284
+  response: 7ED0662B0590CD425
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MIN: 3.285
+  response: 7ED0662B0590CD525
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MIN: 3.286
+  response: 7ED0662B0590CD625
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MIN: 3.287
+  response: 7ED0662B0590CD725

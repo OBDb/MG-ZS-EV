@@ -1,0 +1,5 @@
+command_id: 7E3.7EB.22BA40
+test_cases:
+- expected_values:
+    ZSEV_PARK_BRAKE: 1
+  response: 7EB0462BA4001

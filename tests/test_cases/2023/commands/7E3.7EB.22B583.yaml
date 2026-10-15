@@ -1,0 +1,8 @@
+command_id: 7E3.7EB.22B583
+test_cases:
+- expected_values:
+    ZSEV_DCDC_OUT_A: 35
+  response: 7EB0562B583015E
+- expected_values:
+    ZSEV_DCDC_OUT_A: 36
+  response: 7EB0562B5830168

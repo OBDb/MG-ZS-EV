@@ -1,0 +1,8 @@
+command_id: 7E3.7EB.22B402
+test_cases:
+- expected_values:
+    ZSEV_MOTOR_RPM: -1
+  response: 7EB0562B4027FFE
+- expected_values:
+    ZSEV_MOTOR_RPM: 0
+  response: 7EB0562B4027FFF
