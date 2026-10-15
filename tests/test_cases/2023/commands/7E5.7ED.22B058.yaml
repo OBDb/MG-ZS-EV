@@ -1,0 +1,17 @@
+command_id: 7E5.7ED.22B058
+test_cases:
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MAX: 3.289
+  response: 7ED0662B0580CD936
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MAX: 3.29
+  response: 7ED0662B0580CDA44
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MAX: 3.29
+  response: 7ED0662B0580CDA5A
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MAX: 3.291
+  response: 7ED0662B0580CDB36
+- expected_values:
+    ZSEV_HVBAT_CELL_V_MAX: 3.291
+  response: 7ED0662B0580CDB44

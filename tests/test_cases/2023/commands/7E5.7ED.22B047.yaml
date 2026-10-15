@@ -1,0 +1,5 @@
+command_id: 7E5.7ED.22B047
+test_cases:
+- expected_values:
+    ZSEV_HVBAT_ERR: 0
+  response: 7ED0462B04700

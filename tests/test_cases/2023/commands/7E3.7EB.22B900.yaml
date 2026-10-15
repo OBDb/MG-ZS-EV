@@ -1,0 +1,5 @@
+command_id: 7E3.7EB.22B900
+test_cases:
+- expected_values:
+    ZSEV_GEAR_RAW: 8
+  response: 7EB0462B90008

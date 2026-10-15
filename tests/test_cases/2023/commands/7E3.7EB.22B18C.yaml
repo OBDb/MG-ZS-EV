@@ -1,0 +1,5 @@
+command_id: 7E3.7EB.22B18C
+test_cases:
+- expected_values:
+    ZSEV_IGN: 2
+  response: 7EB0462B18C02
