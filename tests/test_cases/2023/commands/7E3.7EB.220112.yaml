@@ -1,6 +1,12 @@
 command_id: 7E3.7EB.220112
 test_cases:
 - expected_values:
+    ZSEV_12V_V: 12.7
+  response: 7EB046201127F
+- expected_values:
+    ZSEV_12V_V: 13.1
+  response: 7EB0462011283
+- expected_values:
     ZSEV_12V_V: 13.3
   response: 7EB0462011285
 - expected_values:
