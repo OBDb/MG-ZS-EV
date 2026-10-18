@@ -1,0 +1,11 @@
+command_id: 750.758.22E01B
+test_cases:
+- expected_values:
+    ZSEV_AAT_ATC: 14
+  response: 7580562E01B021C
+- expected_values:
+    ZSEV_AAT_ATC: 15
+  response: 7580562E01B0226
+- expected_values:
+    ZSEV_AAT_ATC: 16
+  response: 7580562E01B0230

@@ -1,0 +1,8 @@
+command_id: '740.22E101'
+test_cases:
+- expected_values:
+    ZSEV_BCM_ODO: 43322
+  response: 7480662E10100A93A
+- expected_values:
+    ZSEV_BCM_ODO: 43346
+  response: 7480662E10100A952
