@@ -16,5 +16,11 @@ test_cases:
     ZSEV_UNLOCKED: 0
   response: 74D0762B01311110000
 - expected_values:
+    ZSEV_UNLOCKED: 1
+  response: 74D0762B01311110001
+- expected_values:
     ZSEV_UNLOCKED: 0
   response: 74D0762B01311120000
+- expected_values:
+    ZSEV_UNLOCKED: 1
+  response: 74D0762B01311200001

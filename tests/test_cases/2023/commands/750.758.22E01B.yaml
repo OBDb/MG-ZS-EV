@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     ZSEV_AAT_ATC: 16
   response: 7580562E01B0230
+- expected_values:
+    ZSEV_AAT_ATC: 17
+  response: 7580562E01B023A
