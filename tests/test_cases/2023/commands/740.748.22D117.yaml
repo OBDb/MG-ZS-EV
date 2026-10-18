@@ -14,7 +14,16 @@ test_cases:
   response: 7480762D117842E0133
 - expected_values:
     ZSEV_DRL: 1
+  response: 7480762D117842E0933
+- expected_values:
+    ZSEV_DRL: 1
   response: 7480762D117842E4133
+- expected_values:
+    ZSEV_DRL: 1
+  response: 7480762D117852E09B3
+- expected_values:
+    ZSEV_DRL: 1
+  response: 7480762D117862E0062
 - expected_values:
     ZSEV_DRL: 1
   response: 7480762D117862E0173
