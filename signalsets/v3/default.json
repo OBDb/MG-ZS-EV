@@ -24,7 +24,7 @@
     {"id": "ZSEV_TT_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Rear right tire temperature"},
     {"id": "ZSEV_TT_RL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Rear left tire temperature"}
   ]},
-{ "hdr": "740", "dbg": true, "cmd": {"22": "E101"}, "freq": 30,
+{ "hdr": "740", "cmd": {"22": "E101"}, "freq": 30, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_BCM_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, body control module"}
   ]},
@@ -39,27 +39,27 @@
     {"id": "ZSEV_BCM_TT_RL", "path": "Tires", "fmt": {"bix": 48, "len": 8, "max": 195, "min": -60,           "add": -60, "unit": "celsius"    }, "name": "Rear left tire temperature",   "suggestedMetric": "rearLeftTireTemperature"},
     {"id": "ZSEV_BCM_TT_RR", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 195, "min": -60,           "add": -60, "unit": "celsius"    }, "name": "Rear right tire temperature",  "suggestedMetric": "rearRightTireTemperature"}
   ]},
-{ "hdr": "740", "rax": "748", "dbg": true, "cmd": {"22": "D117"}, "freq": 5,
+{ "hdr": "740", "rax": "748", "cmd": {"22": "D117"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_DRL", "path": "Lights", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Headlights on"}
   ]},
-{ "hdr": "745", "rax": "74D", "dbg": true, "cmd": {"22": "B013"}, "freq": 5,
+{ "hdr": "745", "rax": "74D", "cmd": {"22": "B013"}, "freq": 5, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_UNLOCKED", "path": "Doors", "fmt": {"bix": 31, "len": 1, "max": 1, "unit": "yesno" }, "name": "Vehicle unlocked"}
   ]},
-{ "hdr": "750", "rax": "758", "dbg": true, "cmd": {"22": "E00F"}, "freq": 10,
+{ "hdr": "750", "rax": "758", "cmd": {"22": "E00F"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_BLOWER", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Blower speed"}
   ]},
-{ "hdr": "750", "rax": "758", "dbg": true, "cmd": {"22": "E013"}, "freq": 10,
+{ "hdr": "750", "rax": "758", "cmd": {"22": "E013"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_FACE_OUTLET_T", "path": "Climate", "fmt": { "len": 16, "max": 6523.5, "min": -30, "div": 10, "add": -30, "unit": "celsius" }, "name": "Face vent outlet temperature"}
   ]},
-{ "hdr": "750", "rax": "758", "dbg": true, "cmd": {"22": "E01B"}, "freq": 10,
+{ "hdr": "750", "rax": "758", "cmd": {"22": "E01B"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_AAT_ATC", "path": "Climate", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Ambient temperature, climate control"}
   ]},
-{ "hdr": "750", "rax": "758", "dbg": true, "cmd": {"22": "E01C"}, "freq": 10,
+{ "hdr": "750", "rax": "758", "cmd": {"22": "E01C"}, "freq": 10, "dbgfilter": { "to": 2022 },
   "signals": [
     {"id": "ZSEV_PTC_T", "path": "Climate", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Cabin heater temperature"}
   ]},

@@ -1,0 +1,8 @@
+command_id: 750.758.22E01C
+test_cases:
+- expected_values:
+    ZSEV_PTC_T: 10
+  response: 7580562E01C01F4
+- expected_values:
+    ZSEV_PTC_T: 11
+  response: 7580562E01C01FE
