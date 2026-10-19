@@ -4,5 +4,5 @@ test_cases:
     ZSEV_BCM_ODO: 43322
   response: 7480662E10100A93A
 - expected_values:
-    ZSEV_BCM_ODO: 43350
-  response: 7480662E10100A956
+    ZSEV_BCM_ODO: 43365
+  response: 7480662E10100A965

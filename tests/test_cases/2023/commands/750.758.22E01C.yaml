@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     ZSEV_PTC_T: 11
   response: 7580562E01C01FE
+- expected_values:
+    ZSEV_PTC_T: 18
+  response: 7580562E01C0244
+- expected_values:
+    ZSEV_PTC_T: 19
+  response: 7580562E01C024E
+- expected_values:
+    ZSEV_PTC_T: 20
+  response: 7580562E01C0258
