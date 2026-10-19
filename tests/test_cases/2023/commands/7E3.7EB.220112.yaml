@@ -4,5 +4,5 @@ test_cases:
     ZSEV_12V_V: 12.2
   response: 7EB046201127A
 - expected_values:
-    ZSEV_12V_V: 14
-  response: 7EB046201128C
+    ZSEV_12V_V: 14.1
+  response: 7EB046201128D
