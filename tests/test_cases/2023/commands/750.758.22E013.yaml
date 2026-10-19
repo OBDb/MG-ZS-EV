@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ZSEV_FACE_OUTLET_T: 20
   response: 7580562E01301F4
+- expected_values:
+    ZSEV_FACE_OUTLET_T: 33
+  response: '7580562E0130276'
