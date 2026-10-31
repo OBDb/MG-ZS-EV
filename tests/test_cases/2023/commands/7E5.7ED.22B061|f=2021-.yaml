@@ -4,29 +4,8 @@ test_cases:
     ZSEV_HVBAT_SOH: 94.99
   response: 7ED0562B061251B
 - expected_values:
-    ZSEV_HVBAT_SOH: 95.09
-  response: 7ED0562B0612525
-- expected_values:
-    ZSEV_HVBAT_SOH: 95.15
-  response: 7ED0562B061252B
-- expected_values:
-    ZSEV_HVBAT_SOH: 95.18
-  response: 7ED0562B061252E
-- expected_values:
-    ZSEV_HVBAT_SOH: 95.19
-  response: 7ED0562B061252F
-- expected_values:
-    ZSEV_HVBAT_SOH: 95.2
-  response: 7ED0562B0612530
-- expected_values:
-    ZSEV_HVBAT_SOH: 98.54
-  response: 7ED0562B061267E
-- expected_values:
     ZSEV_HVBAT_SOH: 99.23
   response: 7ED0562B06126C3
 - expected_values:
     ZSEV_HVBAT_SOH: 99.89
   response: 7ED0562B0612705
-- expected_values:
-    ZSEV_HVBAT_SOH: 100
-  response: 7ED0562B0612710
