@@ -1,6 +1,9 @@
 command_id: 750.758.22E013
 test_cases:
 - expected_values:
+    ZSEV_FACE_OUTLET_T: 19
+  response: 7580562E01301EA
+- expected_values:
     ZSEV_FACE_OUTLET_T: 20
   response: 7580562E01301F4
 - expected_values:

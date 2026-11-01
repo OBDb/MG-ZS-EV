@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     ZSEV_MOTOR_RPM: 4376
   response: 7EB0562B4029117
+- expected_values:
+    ZSEV_MOTOR_RPM: 6072
+  response: 7EB0562B40297B7
