@@ -22,6 +22,9 @@ test_cases:
     ZSEV_MOTOR_TQ: 35
   response: 7EB0562B4018022
 - expected_values:
+    ZSEV_MOTOR_TQ: 255
+  response: 7EB0562B40180FE
+- expected_values:
     ZSEV_MOTOR_TQ: 645
   response: 7EB0562B4018284
 - expected_values:
